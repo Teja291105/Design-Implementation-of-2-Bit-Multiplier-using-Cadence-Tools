@@ -1,22 +1,19 @@
 # Design-Implementation-of-2-Bit-Multiplier-using-Cadence-Tools
-Ex No: 05     Design & Implementation of 2 bit multiplier Using Cadence EDA Tools   
-
+Ex No: 06  Design & Implementation of 2 bit multiplier Using Cadence EDA Tools   
 Aim:
 To design and implement a 2-bit multiplier circuit using Cadence EDA tools, simulate its functionality, and to understand its application in digital arithmetic operations.
-
 Tools Required:
 •	Personal Computer
 •	Cadence Virtuoso Software
-
+Circuit Diagram:
+![WhatsApp Image 2024-11-13 at 16 27 48_deca8cf3](https://github.com/user-attachments/assets/ee116850-06c9-4ec1-929c-d988217192be)
 S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIMULATION -Commands to get into Cadence
-
 1.	Right Click and open the terminal window
 2.	Type the following commands as follows and press enter.
 •	csh
 •	source /cadence/install/cshrc
 •	virtuoso 
 Procedure for Schematic simulation using Cadence
-
 1.	Now two windows must open i) virtuoso/command interpreter window ii)”Whats New…”
 2.	Close the 2nd window
 3.	Use 1st window i.e virtuoso window (CIW) for further processing.
@@ -25,8 +22,6 @@ ii.	Create Schematic Cell view.
 iii.	Create the Symbol for schematic Cell view.
 iv.	Create the test Cell view.
 v.	Analog simulation by spectre
-
-
 i)	Procedure for Creating New Library.
 •	File –New – Library
 •	Name: Give name for ur library Ex: VLSILAB_EXP_1
@@ -47,13 +42,8 @@ ii)	Create Schematic Cell view.
 	Create Input and Output pins
 	Make the connections by using fixed narrow wire key
 	Click Check and Save button
-
 ![WhatsApp Image 2024-11-19 at 15 20 03_3bbf8980](https://github.com/user-attachments/assets/a3e82675-34e8-4613-b5a3-98e978b3eff2)
-
-
- 
 iii)	Creating the Symbol for schematic Cell view
-
 •	In the schematic window, execute 
 	Create – Cell view – From Cell view
 	The cell view from cell view window appears
@@ -65,14 +55,8 @@ iii)	Creating the Symbol for schematic Cell view
 •	Library Name and Cell Name must be same which you have used for schematic. Press OK
 •	Check for the position of pin side.Prss OK
 •	Edit for the shape by Create-Shape-Choose required options to edit.
-
- ![WhatsApp Image 2024-11-19 at 15 20 16_62e473e9](https://github.com/user-attachments/assets/5ccd429a-4282-4865-a2ab-44bcc23b4e96)
-
-
-
-
+![WhatsApp Image 2024-11-19 at 15 20 16_62e473e9](https://github.com/user-attachments/assets/5ccd429a-4282-4865-a2ab-44bcc23b4e96)
 iv)	Creating the new test cell view
-
 •	Go to CIW window, Execute File-New-Cell view
 	Setup the new file form
 	Library: Select the one you created.
@@ -81,8 +65,6 @@ iv)	Creating the new test cell view
 	Type: Schematic press OK
 •	Follow the step 3(ii) d to make the required connections
 ![WhatsApp Image 2024-11-19 at 15 20 29_53e46aee](https://github.com/user-attachments/assets/ee669877-01c3-4cce-a031-295d61bfe358)
-
-
  Analog simulation by SPECTRE.
 •	In test cell view window
 •	Launch – ADE L(Analog Design Environment)
@@ -93,16 +75,9 @@ iv)	Creating the new test cell view
 	Execute Output s—to be plotted – Select on Schematic
 	Then Select the INPUT WIRE(Vin ) and OUTPUT WIRE(Vout) from your test Schematic using mouse
 •	Execute Simulation -- Net list and Run
-
 ![WhatsApp Image 2024-11-19 at 15 20 45_0f1b6b1a](https://github.com/user-attachments/assets/a83aac61-9531-4c29-a246-87df16766bdf)
-
-
 For Transient Analysis Settings and Output
 ![WhatsApp Image 2024-11-19 at 15 21 01_2c675d3a](https://github.com/user-attachments/assets/d52bfcd3-57e7-4160-bba2-9c276085a316)
-
  ![IMG-20241019-WA0027](https://github.com/user-attachments/assets/c13a30de-284c-4201-8bde-c9fc9e88234b)
-
-  
-
 Results:
 The design and implementation of the 2-bit multiplier using Cadence EDA tools were successfully carried out. The simulation results confirmed the correct operation of the multiplier for all input combinations. 
